@@ -23,7 +23,7 @@ pip install cbor2
 ## Usage
 
 ```python
-from NonPrintableEncoder import NonPrintableEncoder
+from non_printable import NonPrintableEncoder
 
 original_text = "This is a test"
 data_to_encode = {"key1": "value1", "key2": 2}
